@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+  <g id="petal">
+    <path d="M100 100 C78 62 82 22 100 6 C118 22 122 62 100 100Z" stroke="#c2185b" stroke-width="0.8" stroke-opacity="0.5"/>
+    <path d="M100 94 L100 22 M100 80 L90 52 M100 80 L110 52 M100 62 L94 40 M100 62 L106 40" stroke="#fff" stroke-opacity="0.7" stroke-width="1" fill="none"/>
+  </g>
+</defs>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(0.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(22.5) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(45.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(67.5) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(90.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(112.5) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(135.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(157.5) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(180.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(202.5) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(225.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(247.5) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(270.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(292.5) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(315.0) scale(1.0) translate(-100 -100)"/>
+<use href="#petal" fill="#ffd1e3" transform="translate(100 100) rotate(337.5) scale(1.0) translate(-100 -100)"/>
+
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(15.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(45.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(75.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(105.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(135.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(165.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(195.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(225.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(255.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(285.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(315.0) scale(0.8) translate(-100 -100)"/>
+<use href="#petal" fill="#ff9cc5" transform="translate(100 100) rotate(345.0) scale(0.8) translate(-100 -100)"/>
+
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(0.0) scale(0.6) translate(-100 -100)"/>
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(45.0) scale(0.6) translate(-100 -100)"/>
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(90.0) scale(0.6) translate(-100 -100)"/>
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(135.0) scale(0.6) translate(-100 -100)"/>
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(180.0) scale(0.6) translate(-100 -100)"/>
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(225.0) scale(0.6) translate(-100 -100)"/>
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(270.0) scale(0.6) translate(-100 -100)"/>
+<use href="#petal" fill="#ff5fa2" transform="translate(100 100) rotate(315.0) scale(0.6) translate(-100 -100)"/>
+
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(22.5) scale(0.38) translate(-100 -100)"/>
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(67.5) scale(0.38) translate(-100 -100)"/>
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(112.5) scale(0.38) translate(-100 -100)"/>
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(157.5) scale(0.38) translate(-100 -100)"/>
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(202.5) scale(0.38) translate(-100 -100)"/>
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(247.5) scale(0.38) translate(-100 -100)"/>
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(292.5) scale(0.38) translate(-100 -100)"/>
+<use href="#petal" fill="#c2185b" transform="translate(100 100) rotate(337.5) scale(0.38) translate(-100 -100)"/>
+
+<circle cx="100" cy="100" r="15" fill="#c2185b"/>
+<circle cx="111.0" cy="100.0" r="2" fill="#ffe0ee"/><circle cx="109.5" cy="105.5" r="2" fill="#ffe0ee"/><circle cx="105.5" cy="109.5" r="2" fill="#ffe0ee"/><circle cx="100.0" cy="111.0" r="2" fill="#ffe0ee"/><circle cx="94.5" cy="109.5" r="2" fill="#ffe0ee"/><circle cx="90.5" cy="105.5" r="2" fill="#ffe0ee"/><circle cx="89.0" cy="100.0" r="2" fill="#ffe0ee"/><circle cx="90.5" cy="94.5" r="2" fill="#ffe0ee"/><circle cx="94.5" cy="90.5" r="2" fill="#ffe0ee"/><circle cx="100.0" cy="89.0" r="2" fill="#ffe0ee"/><circle cx="105.5" cy="90.5" r="2" fill="#ffe0ee"/><circle cx="109.5" cy="94.5" r="2" fill="#ffe0ee"/>
+<circle cx="100" cy="100" r="5" fill="#fff"/>
+</svg>

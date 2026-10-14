@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed | Petal</title>
+  <link rel="icon" href="../assets/img/logo.svg">
+  <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body data-page="feed" data-private="true">
+<nav>
+  <a class="logo" href="feed.html"><img src="../assets/img/logo.svg" alt="" width="30" height="30">Petal</a>
+  <ul>
+    <li><a href="feed.html">Feed</a></li>
+    <li><a href="explore.html">Explore</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <li><a href="settings.html">Settings</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+    <li><button id="logoutBtn" class="btn btn-light">Log out</button></li>
+  </ul>
+</nav>
+<main>
+  <section class="card">
+    <h2>Plant a petal</h2>
+    <form id="postForm">
+      <label for="postText">What's on your mind?</label>
+      <textarea id="postText" rows="3" maxlength="280" required></textarea>
+      <label for="postLife">This post fades after</label>
+      <select id="postLife">
+        <option value="1">1 hour</option>
+        <option value="24" selected>24 hours</option>
+        <option value="0">Never (until I delete it)</option>
+      </select>
+      <button class="btn" type="submit">Post</button>
+    </form>
+  </section>
+
+  <p class="small">&#128274; Everything here is stored only on this device. Nothing is sent anywhere.</p>
+  <br>
+  <section id="feed"></section>
+</main>
+<footer>Petal 2026 &mdash; by Karylle Lynn L. Dellosa, BS Data Science, USTP</footer>
+<script src="../src/js/main.js"></script>
+</body>
+</html>

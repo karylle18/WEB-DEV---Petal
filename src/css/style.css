@@ -1,0 +1,124 @@
+/* Petal - style.css
+   Pink theme. Signature detail: "petal" cards (two round corners, two sharp). */
+
+:root {
+  --pink: #ff5fa2;
+  --pink-dark: #c2185b;
+  --pink-light: #ffe0ee;
+  --bg: #ffffff;
+  --text: #3b2230;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg) url("../../assets/img/background.jpg");   
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1; width: 100%; max-width: 720px; margin: 30px auto; padding: 0 16px; }
+
+h1, h2 { font-family: Georgia, serif; color: var(--pink-dark); margin-bottom: 10px; }
+a { color: var(--pink-dark); }
+ul.list { margin: 0 0 12px 22px; }
+
+
+nav {
+  background: white;
+  border-bottom: 3px solid var(--pink);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+nav ul { list-style: none; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+nav a { text-decoration: none; color: var(--text); }
+nav a:hover { color: var(--pink-dark); }
+.logo { display: flex; align-items: center; gap: 8px; font: bold 1.5rem Georgia, serif; color: var(--pink-dark); }
+
+
+.card {
+  background: white;
+  border: 2px dashed var(--pink);
+  border-radius: 28px 6px 28px 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+label { display: block; font-weight: bold; }
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border: 2px solid var(--pink-light);
+  border-radius: 10px;
+  font: inherit;
+}
+input:focus, textarea:focus, select:focus, button:focus-visible { outline: 3px solid var(--pink); }
+
+.btn {
+  display: inline-block;
+  background: var(--pink);
+  color: white;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 999px;
+  font: bold 1rem Arial, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn:hover { background: var(--pink-dark); }
+.btn-light { background: var(--pink-light); color: var(--pink-dark); }
+.btn-light:hover { background: var(--pink); color: white; }
+
+.message { color: var(--pink-dark); font-weight: bold; min-height: 1.5em; }
+.small { font-size: 0.85rem; color: #8a6a7a; }
+
+
+.hero { text-align: center; padding: 40px 10px; }
+.hero h1 { font-size: 2.6rem; }
+.hero p { margin-bottom: 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+
+
+.post-head { display: flex; gap: 12px; align-items: center; margin-bottom: 8px; }
+.avatar {
+  width: 48px; height: 48px; flex-shrink: 0;
+  border-radius: 50% 50% 50% 8px;      
+  background: var(--pink);
+  color: white;
+  display: flex; align-items: center; justify-content: center;
+  font: bold 1.4rem Georgia, serif;
+}
+.avatar.big { width: 80px; height: 80px; font-size: 2.2rem; }
+article .btn { margin: 10px 8px 0 0; }
+
+pre { background: var(--pink-light); padding: 12px; border-radius: 10px; overflow: auto; font-size: 0.8rem; margin-bottom: 12px; }
+
+footer { text-align: center; padding: 18px; background: var(--pink-light); color: var(--pink-dark); font-size: 0.9rem; }
+
+
+.frame { position: relative; width: 280px; height: 280px; margin: 0 auto 16px; }
+.frame .flower { position: absolute; inset: 0; width: 100%; height: 100%; }
+.frame .photo {
+  position: absolute; top: 50%; left: 50%;
+  width: 150px; height: 150px;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px var(--pink);
+}
+.prompt { font: italic 1.3rem Georgia, serif; margin-bottom: 14px; }
+
+
+h1::after { content: " \273F"; color: var(--pink); }        
+.hero .flower { width: 140px; height: 140px; display: block; margin: 0 auto 10px; }
