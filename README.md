@@ -51,7 +51,7 @@ AI systems can read and collect almost everything we post. Petal asks: what if a
     ├── logo.svg
     ├── creator.jpg         (photo of the creator)
     ├── flower.svg          (layered petal illustration)
-    └── petal-pattern.svg   (soft background tile)
+    └── background.jpg   (soft background tile)
 ```
 
 ## How to run
