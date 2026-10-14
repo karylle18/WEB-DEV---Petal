@@ -102,5 +102,4 @@ This is a prototype, not a secure product.
 8. Sign up again with the same username: "That username is taken."
 9. Delete your account in Settings: you return to the home page and cannot log in.
 
-## AI use and honesty
-An AI assistant (Claude) helped write the first version of this project. I reviewed and tested the code, and I can explain every part of it. In answer to the Descartes reflection: AI is best used to think *with*, not to think *instead of* us.
+
